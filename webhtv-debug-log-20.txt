@@ -1,0 +1,56 @@
+2026-06-20 21:24:26.989 [main] debug: 调试日志已开启
+2026-06-20 21:24:26.992 [main] env: reason=enable app=5.5.2(552) mode=mobile abi=arm64_v8a debug=false hardware=true android=15 sdk=35 incremental=compiler250508175859 manufacturer=vivo brand=vivo model=V2453A device=PD2453 product=PD2453 supportedAbis=arm64-v8a
+2026-06-20 21:24:26.994 [main] webview: role=debug-env provider package=com.google.android.webview version=126.0.6478.71 code=647807132
+2026-06-20 21:24:26.997 [main] debug: logs service ready url=http://127.0.0.1:9978/debug/logs lan=http://192.168.52.230:9978/debug/logs
+2026-06-20 21:24:27.936 [pool-4-thread-5] webhome: invoke method=cache.set payload={"key":"fish2018_home_v1_ui_snapshot","value":"{\"version\":1,\"savedAt\":1781961867934,\"route\":\"home\",\"hash\":\"\",\"activeList\":\"all\",\"scrollY\":0,\"connectionOpen\":false,\"selected\":null,\"detailScrollTop\":0,\"imageUrl\":\"\",\"detailReturn\":null,\"homeReturn\":null,\"pan\":{\"visible\":false,\"keyword\":\"\",\"activeType\":\"\",\"results\":[],\"health\":{},\"listScrollTop\":0,\"focusKey\":\"\",\"focusMode\":\"\",\"playbackReturn\":null}}"}
+2026-06-20 21:24:27.968 [pool-4-thread-2] webhome: invoke method=cache.set payload={"key":"fish2018_home_v1_ui_snapshot","value":"{\"version\":1,\"savedAt\":1781961867956,\"route\":\"home\",\"hash\":\"\",\"activeList\":\"all\",\"scrollY\":0,\"connectionOpen\":false,\"selected\":null,\"detailScrollTop\":0,\"imageUrl\":\"\",\"detailReturn\":null,\"homeReturn\":null,\"pan\":{\"visible\":false,\"keyword\":\"\",\"activeType\":\"\",\"results\":[],\"health\":{},\"listScrollTop\":0,\"focusKey\":\"\",\"focusMode\":\"\",\"playbackReturn\":null}}"}
+2026-06-20 21:24:28.915 [NanoHttpd Request Processor (#6)] server: GET /debug/logs params={}
+2026-06-20 21:24:29.062 [NanoHttpd Request Processor (#6)] server: GET /debug/stream params={v=214, _=1781961869010}
+2026-06-20 21:24:29.183 [NanoHttpd Request Processor (#6)] server: GET /favicon.ico params={}
+2026-06-20 21:24:30.629 [NanoHttpd Request Processor (#7)] server: GET /debug/stream params={v=215, _=1781961870623}
+2026-06-20 21:24:30.839 [OkHttp https://r.252035.xyz/...] remote: websocket closed origin=https://r.252035.xyz
+2026-06-20 21:24:30.841 [OkHttp https://r.252035.xyz/...] remote: websocket failed origin=https://r.252035.xyz error=Expected HTTP 101 response but was '426 Upgrade Required'
+2026-06-20 21:24:31.670 [NanoHttpd Request Processor (#8)] server: GET /debug/logs.txt params={}
+2026-06-20 21:24:32.149 [NanoHttpd Request Processor (#8)] server: GET /debug/stream params={v=217, _=1781961872141}
+2026-06-20 21:24:33.678 [NanoHttpd Request Processor (#9)] server: GET /debug/stream params={v=221, _=1781961873659}
+2026-06-20 21:24:57.773 [NanoHttpd Request Processor (#10)] server: GET /debug/stream params={v=222, _=1781961875189}
+2026-06-20 21:24:57.789 [pool-4-thread-3] proxy: select fallback reason=no-rule uri=https://r.252035.xyz/ proxy=[HTTP @ 127.54.85.81/<unresolved>:38663]
+2026-06-20 21:24:57.901 [pool-4-thread-4] webhome: invoke method=ui.getViewport payload={}
+2026-06-20 21:24:57.902 [pool-4-thread-5] webhome: invoke method=device.info payload={}
+2026-06-20 21:24:57.903 [pool-4-thread-5] webhome-net: GET http://127.0.0.1:9978/device include=false timeout=30s headers=[Accept-Encoding, User-Agent]
+2026-06-20 21:24:57.909 [NanoHttpd Request Processor (#11)] server: GET /device params={}
+2026-06-20 21:24:57.915 [pool-4-thread-5] webhome-net: GET http://127.0.0.1:9978/device -> 200 in 11ms
+2026-06-20 21:24:57.918 [pool-4-thread-2] webhome: invoke method=ui.setChrome payload={"mode":"normal","statusBarStyle":"light","navigationBarStyle":"light","restoreAffordance":"auto","startup":true}
+2026-06-20 21:24:57.919 [pool-4-thread-1] webhome: invoke method=site.info payload={}
+2026-06-20 21:24:57.920 [pool-4-thread-4] webhome: invoke method=config.info payload={}
+2026-06-20 21:24:57.940 [pool-4-thread-5] webhome: invoke method=ui.getViewport payload={}
+2026-06-20 21:24:57.944 [pool-4-thread-2] webhome: invoke method=device.info payload={}
+2026-06-20 21:24:57.945 [pool-4-thread-2] webhome-net: GET http://127.0.0.1:9978/device include=false timeout=30s headers=[Accept-Encoding, User-Agent]
+2026-06-20 21:24:57.947 [NanoHttpd Request Processor (#11)] server: GET /device params={}
+2026-06-20 21:24:57.950 [pool-4-thread-2] webhome-net: GET http://127.0.0.1:9978/device -> 200 in 5ms
+2026-06-20 21:24:57.995 [pool-4-thread-1] webhome: invoke method=ui.setChrome payload={"mode":"normal","statusBarStyle":"light","navigationBarStyle":"light","restoreAffordance":"auto","startup":true}
+2026-06-20 21:24:57.997 [pool-4-thread-4] webhome: invoke method=site.info payload={}
+2026-06-20 21:24:58.000 [pool-4-thread-5] webhome: invoke method=config.info payload={}
+2026-06-20 21:24:58.061 [OkHttp https://r.252035.xyz/...] remote: websocket closed origin=https://r.252035.xyz
+2026-06-20 21:24:58.061 [OkHttp https://r.252035.xyz/...] remote: websocket failed origin=https://r.252035.xyz error=Expected HTTP 101 response but was '426 Upgrade Required'
+2026-06-20 21:24:58.085 [pool-4-thread-2] webhome: invoke method=cache.get payload={"key":"pendingWatch"}
+2026-06-20 21:24:58.086 [pool-4-thread-2] webhome: invoke method=app.history payload={}
+2026-06-20 21:24:58.120 [pool-4-thread-4] webhome: invoke method=ui.getViewport payload={}
+2026-06-20 21:24:58.121 [pool-4-thread-5] webhome: invoke method=device.info payload={}
+2026-06-20 21:24:58.122 [pool-4-thread-5] webhome-net: GET http://127.0.0.1:9978/device include=false timeout=30s headers=[Accept-Encoding, User-Agent]
+2026-06-20 21:24:58.124 [NanoHttpd Request Processor (#11)] server: GET /device params={}
+2026-06-20 21:24:58.130 [pool-4-thread-5] webhome-net: GET http://127.0.0.1:9978/device -> 200 in 7ms
+2026-06-20 21:24:58.133 [pool-4-thread-1] webhome: invoke method=ui.setChrome payload={"mode":"normal","statusBarStyle":"light","navigationBarStyle":"light","restoreAffordance":"auto","startup":true}
+2026-06-20 21:24:58.134 [pool-4-thread-2] webhome: invoke method=site.info payload={}
+2026-06-20 21:24:58.136 [pool-4-thread-3] webhome: invoke method=config.info payload={}
+2026-06-20 21:24:58.347 [pool-4-thread-4] webhome: invoke method=cache.set payload={"key":"fish2018_home_v1_ui_snapshot","value":"{\"version\":1,\"savedAt\":1781961898345,\"route\":\"home\",\"hash\":\"\",\"activeList\":\"all\",\"scrollY\":0,\"connectionOpen\":false,\"selected\":null,\"detailScrollTop\":0,\"imageUrl\":\"\",\"detailReturn\":null,\"homeReturn\":null,\"pan\":{\"visible\":false,\"keyword\":\"\",\"activeType\":\"\",\"results\":[],\"health\":{},\"listScrollTop\":0,\"focusKey\":\"\",\"focusMode\":\"\",\"playbackReturn\":null}}"}
+2026-06-20 21:24:59.286 [pool-4-thread-5] webhome: invoke method=cache.get payload={"key":"pendingWatch"}
+2026-06-20 21:25:01.071 [pool-4-thread-1] proxy: select fallback reason=no-rule uri=https://api.github.com/ proxy=[HTTP @ 127.54.85.81/<unresolved>:38663]
+2026-06-20 21:25:02.088 [pool-4-thread-3] webhome: invoke method=cache.get payload={"key":"pendingWatch"}
+2026-06-20 21:25:09.862 [OkHttp https://r.252035.xyz/...] remote: websocket closed origin=https://r.252035.xyz
+2026-06-20 21:25:09.865 [OkHttp https://r.252035.xyz/...] remote: websocket failed origin=https://r.252035.xyz error=Expected HTTP 101 response but was '426 Upgrade Required'
+2026-06-20 21:25:16.716 [pool-4-thread-4] webhome: invoke method=cache.set payload={"key":"fish2018_home_v1_ui_snapshot","value":"{\"version\":1,\"savedAt\":1781961916700,\"route\":\"home\",\"hash\":\"\",\"activeList\":\"all\",\"scrollY\":0,\"connectionOpen\":false,\"selected\":null,\"detailScrollTop\":0,\"imageUrl\":\"\",\"detailReturn\":null,\"homeReturn\":null,\"pan\":{\"visible\":false,\"keyword\":\"\",\"activeType\":\"\",\"results\":[],\"health\":{},\"listScrollTop\":0,\"focusKey\":\"\",\"focusMode\":\"\",\"playbackReturn\":null}}"}
+2026-06-20 21:25:16.717 [pool-4-thread-5] webhome: invoke method=cache.set payload={"key":"fish2018_home_v1_ui_snapshot","value":"{\"version\":1,\"savedAt\":1781961916713,\"route\":\"home\",\"hash\":\"\",\"activeList\":\"all\",\"scrollY\":0,\"connectionOpen\":false,\"selected\":null,\"detailScrollTop\":0,\"imageUrl\":\"\",\"detailReturn\":null,\"homeReturn\":null,\"pan\":{\"visible\":false,\"keyword\":\"\",\"activeType\":\"\",\"results\":[],\"health\":{},\"listScrollTop\":0,\"focusKey\":\"\",\"focusMode\":\"\",\"playbackReturn\":null}}"}
+2026-06-20 21:25:17.974 [NanoHttpd Request Processor (#12)] server: GET /debug/stream params={v=223, _=1781961917255}
+2026-06-20 21:25:19.329 [NanoHttpd Request Processor (#13)] server: GET /debug/logs.txt params={}
+2026-06-20 21:25:21.922 [NanoHttpd Request Processor (#14)] server: GET /debug/logs.txt params={}
